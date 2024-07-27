@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: hsl(47, 88%, 63%); /* Background color */
+  font-size: 16px;
+  font-family: 'Figtree', sans-serif; /* Use Figtree font */
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black; /* Shadow only on the right and bottom */
+  width: 300px;
+  padding: 20px;
+  
+  border: 1px solid black; /* Black border */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column; /* Align content vertically */
+  align-items: flex-start; /* Align content to the left */
+}
+
+.card-icon {
+  display: flex; /* Use flexbox for centering the icon */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  margin-bottom: 10px; /* Space between icon and content */
+}
+
+.card-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.learning-box {
+  background-color: hsl(47, 88%, 63%); /* Light background for learning box */
+  border-radius: 5px; /* Rounded corners for learning box */
+  padding: 2px; /* Padding for learning box */
+  margin-bottom: 10px; /* Space below learning box */
+}
+
+h2 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+  font-weight: 800; /* Use bold weight for heading */
+}
+
+.para1 p {
+  font-weight: 500; /* Use normal weight for learning text */
+  color:  hsl(0, 0%, 42%);
+}
+
+.para2 p {
+  font-weight: 800; /* Default weight for published date */
+  color:  hsl(0, 0%, 42%);
+}
+
+.author {
+  margin-top: 20px;
+  font-size: 12px;
+  color: black;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center vertically */
+}
+
+.author img {
+  width: 30px; /* Adjust avatar size */
+  height: 30px; /* Adjust avatar size */
+  border-radius: 50%; /* Make avatar circular */
+  margin-right: 10px; /* Space between avatar and name */
+}
